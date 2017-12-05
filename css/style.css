@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+ a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+/**** HEADER ***/
+
+header {
+  padding-top: 32px;
+}
+
+header .left {
+  float: left;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  width: 30%;
+}
+
+/*header .left:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+.logo {
+  float: left;
+  padding: 0px 10px;
+}
+
+.company {
+ float: left;
+ margin-left: 10px;
+ padding-top: 23px;
+}
+
+header .center {
+  float: left;
+  align-items: center;
+  display: inline;
+  padding-top: 35px;
+}
+
+header .center p {
+  font-family: sans-serif;
+  color:#2d2d2d;
+}
+
+button {
+  background: #1CA6D5;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 14px;
+}
+
+.callback-button button {
+  float: right;
+  padding: 18px 35px;
+  margin-top: 8px;
+  margin-right: 50px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+/*** NAVBAR ***/
+.navbar ul {
+  float: left;
+  display: block;
+  width: 100%;
+  padding-top: 35px;
+  margin-bottom: 30px;
+}
+
+.navbar ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 1%;
+}
+
+/*** MAIN SECTION ***/
+.main {
+  background-image: url('../img/helilar-home-slide.jpg');
+  background-repeat: no-repeat;
+  height: 860px;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-title-small {
+  margin: auto;
+  padding-top: 196px;
+  font-size: 30px;
+  width: 885px;
+  line-height: 1.3em;
+  letter-spacing: 2.4px;
+}
+
+.main-title-large {
+  margin: auto;
+  padding-top: 40px;
+  font-size: 108px;
+  width: 650px;
+  font-weight: bold;
+  line-height: 1.2em;
+  letter-spacing: 8.4px;
+}
+
+.main-title-button {
+  padding-top: 40px;
+}
+.main-title-button button {
+  padding: 21px 46px;
+  border: none;
+}
+
+/*** MAIN DESCRIPTION ***/
+
+.main-description {
+  height: 569px;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  float: left;
+  width: 668px;
+}
+
+.description-1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 110px;
+}
+
+.description-2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7;
+  padding-top: 35px;
+}
+
+.description-3 {
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.7;
+  color: #888888;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.greenbulb {
+  padding-left: 128px;
+  width: 456px;
+  float:left;
+  padding-top: 110px;
+}
