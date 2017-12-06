@@ -1,3 +1,12 @@
+/*** CLEARFIX ***/
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*** GLOBAL ***/
 * {
   padding: 0;
   margin: 0;
@@ -182,4 +191,223 @@ button:hover {
   width: 456px;
   float:left;
   padding-top: 110px;
+}
+
+/*** EXPERTISE SECTION ***/
+
+.expertise-panel {
+  height: 530px;
+  color: #fff;
+  background-image: url('../img/helilal-blue-home-bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+.expertise-promise-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 110px;
+}
+
+.installs,
+.members,
+.turbines,
+.experience {
+  border: 2px solid #ffffff;
+  border-radius: 75px;
+  width: 150px;
+  height: 150px;
+  padding: 0 40px;
+}
+
+.expertise-numbers {
+  font-size: 20px;
+  padding-top: 90%;
+  text-align: center;
+}
+
+.expertise-circles {
+  padding: 60px 0px 0px 75px;
+  display: inline-block;
+  width: 296px;
+}
+
+.expertise-text {
+  padding-top: 30px;
+}
+
+.expertise-text.team {
+  padding-left: 12px;
+}
+
+.expertise-text.wind {
+  padding-left: 15px;
+}
+
+.expertise-text.years {
+  padding-right: 15px;
+}
+
+/*** SOLAR/WIND SECTION ***/
+
+.solar-wind-panel{
+  height: 794px;
+  background-image: url('../img/helilal-turbine-home-bg3.jpg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 40px;
+}
+
+.solar-wind-title {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  text-align: center;
+  padding-top: 108px;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: 0;
+}
+
+.solar-wind-boxes {
+  background-color: #F5F5F5;
+  margin: 20px 10px;
+  padding: 10px;
+  width: 570px;
+  height: 176px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*.solar-wind-boxes:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+.solar-wind-images {
+  float: left;
+  height: 176px;
+  padding-top: 45px;
+}
+
+.solar-wind-panel-text {
+  width: 506px;
+  height: 176px;
+  font-size: 18px;
+  padding-left: 120px;
+}
+
+.solar-wind-panel-text p:nth-child(1) {
+  padding-top: 20px;
+}
+
+.solar-wind-panel-text p:nth-child(2) {
+  padding-top: 35px;
+  line-height: 1.7em;
+  color: #888888;
+}
+.left-column-wind {
+  margin-left: 10px;
+  float: left;
+}
+.right-column-solar {
+  float: left;
+}
+
+/*** LARGE IMAGES GRID ***/
+.solar-wind-images-grid {
+  height: 1425px;
+}
+
+.solar-wind-images-grid img {
+  float: left;
+  height: 475px;
+  width: 50%;
+  padding: 0;
+}
+
+/*** RECENT NEWS SECTION ***/
+.recent-news-section {
+  height: 845px;
+}
+.recent-news-title {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+}
+
+.recent-news-wrapper {
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+.recent-news-title-blue {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1CA6D5;
+  text-align: left;
+  margin-left: 15px;
+  padding-top: 30px;
+}
+
+.recent-news-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  color: #888888;
+  text-align: justify;
+  padding-top: 35px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  width: 555px;
+}
+
+.recent-news-left {
+  float: left;
+  width: 50%;
+}
+
+.recent-news-right {
+  float: left;
+  width: 50%;
+}
+
+.recent-news-button {
+  text-align: center;
+}
+
+/*** SIGNUP FORM ***/
+
+.signup-form-section {
+  height: 405px;
+  background-image: url('../img/helilal-signup-form-background.jpg');
+  background-position: center;
+  text-align: center;
+}
+
+input[type=text],
+input[type=email] {
+  width: 630px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[placeholder] {
+  font-family: arial;
+  color: black;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.input-box.name {
+  padding-top: 95px;
+  margin-bottom: 20px;
 }
