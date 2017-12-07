@@ -411,3 +411,79 @@ input[placeholder] {
   padding-top: 95px;
   margin-bottom: 20px;
 }
+
+/*** MAIN_FOOTER ***/
+.footer-navigation-section {
+  height: 500px;
+  background-color: #292929;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  margin: 0 20px;
+}
+
+.title p:nth-child(1) {
+  color: #fff;
+  font-weight: bold;
+  padding-top: 130px;
+  margin-bottom: 30px;
+}
+
+.about-us {
+  width: 375px;
+  float: left;
+}
+.about-us p:nth-child(2) {
+  color: #888888;
+  line-height: 1.7em;
+  text-align: left;
+}
+
+.menu {
+  width: 175px;
+  float: left;
+}
+
+.menu ul li a{
+  color: #1CA6D5;
+  text-decoration: none;
+  display: block;
+  line-height: 2.5em;
+  font-size: 16px;
+}
+
+.recent-commands {
+  width: 250px;
+  float: left;
+}
+
+.contact-info {
+  width: 200px;
+  float: left;
+}
+.recent-commands ul li,
+.contact-info ul li {
+  color: #888;
+  font-size: 16px;
+  line-height: 2.5em;
+}
+.recent-commands ul li a,
+.contact-info ul li a {
+  display: block;
+  color: #1CA6D5;
+}
+
+footer {
+  background-color: #212121;
+  height: 75px;
+  color: #888;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+footer p {
+  padding-top: 30px;
+  padding-left: 30px;
+}
